@@ -17,3 +17,18 @@ CHANGE: cross validation w/o stratified
 CHANGE: Random forest w/ gridsearch
 {'classifier__max_depth': None, 'classifier__min_samples_leaf': 5, 'classifier__n_estimators': 50}
 0.890225916453538
+
+
+FINAL EVAL WITH RANDOM FOREST
+Accuracy: 0.9
+Precision: 0.8387096774193549
+Recall: 0.896551724137931
+F1: 0.8666666666666667
+
+Confusion matrix:
+[[46  5]
+[ 3 26]]
+
+        PREDICTED
+ ACTUAL [[TN FP]
+        [ FN TP]]
