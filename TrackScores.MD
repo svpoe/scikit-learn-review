@@ -13,3 +13,7 @@ CHANGE: cross validation
 CHANGE: cross validation w/o stratified
 {'classifier__C': 0.01, 'classifier__solver': 'liblinear'}
 0.7189472845994586
+
+CHANGE: Random forest w/ gridsearch
+{'classifier__max_depth': None, 'classifier__min_samples_leaf': 5, 'classifier__n_estimators': 50}
+0.890225916453538
